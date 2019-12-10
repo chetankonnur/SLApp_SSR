@@ -1,0 +1,66 @@
+body {
+  position: relative;
+  color: #0c0b0b;
+  width: 100%;
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+}
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+
+#homeHeading {
+  color: white;
+}
+.appStyle {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+.dashboardCardsIconvol {
+  font-size: 25px;
+  color: #ff5a4e;
+}
+
+.dashboardCardsIcondonation {
+  font-size: 25px;
+  color: #009e68;
+}
+.dashboardCardsIconevents {
+  font-size: 25px;
+  color: #8043f5;
+}
+
+.dashboardCardsIconMembership {
+  font-size: 25px;
+  color: #00c4cc;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.navBarPosition {
+  position: relative;
+}
+
+.gutter-0 > [class^="col-"],
+.gutter-0 > [class^=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.material-icons.grey {
+  color: rgb(71, 70, 69);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}

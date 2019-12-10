@@ -1,5 +1,5 @@
-import LandingComponent from '../pages/landing/components/LandingComponent';
-import AboutComponent from '../pages/about/components/AboutComponent';
+import LandingComponent from '../components/pages/landing/components/LandingComponent';
+import AboutComponent from '../components/pages/about/components/AboutComponent';
 
 export default [
   {
