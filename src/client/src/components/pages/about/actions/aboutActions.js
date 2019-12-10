@@ -1,4 +1,4 @@
-import { HTTPRequestHandler } from "../../../utils/commonRequires";
+import { HTTPRequestHandler } from "../../../../utils/commonRequires";
 
 export const fetchCampaigns = params => {
   return new Promise((resolve, reject) => {
