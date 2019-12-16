@@ -11,11 +11,13 @@ var settings = {
   }
 };
 
-export const widgetCall = () => {
-  let call = $.ajax(settings).done(function(response) {
+
+const fun1 = (param) => {
+  console.log('param---------------------------------> ',param);
+  
+  $.ajax(settings).done(function(response) {
     $("#replaceDiv").html(response);
   });
-  return call;
-};
+}
 
 <div id="replaceDiv"></div>;
