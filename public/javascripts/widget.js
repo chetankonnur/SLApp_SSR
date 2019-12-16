@@ -16,9 +16,8 @@ var settings = {
 const fun1 = (param) => {
   console.log('param---------------------------------> ',param);
   
-  // $.ajax(settings).done(function(response) {
-  //   $("#replaceDiv").html(response);
-  // });
+  $.ajax(settings).done(function(response) {
+    $("#replaceDiv").html(response);
+  });
 }
 
-{/* <div id="replaceDiv"></div>; */}
