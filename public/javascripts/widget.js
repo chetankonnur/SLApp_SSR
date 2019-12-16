@@ -21,4 +21,4 @@ const fun1 = (param) => {
   // });
 }
 
-<div id="replaceDiv"></div>;
+{/* <div id="replaceDiv"></div>; */}
